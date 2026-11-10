@@ -1,0 +1,25 @@
+{
+  "name": "hospital-appointment-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "prisma generate",
+    "pull": "prisma db pull",
+    "seed": "prisma db seed",
+    "test": "tsx src/test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.15.0",
+    "prisma": "7.10.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "7.10.0",
+    "@prisma/client": "7.10.0",
+    "dotenv": "^16.4.7",
+    "pg": "^8.16.0"
+  }
+}
